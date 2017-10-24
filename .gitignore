@@ -1,81 +1,43 @@
-tgnore generated binaries
-# but not the data folder
-###########################
+# Prerequisites
+*.d
 
-/bin/*
-!/bin/data/
-
-#########
-# general
-#########
-
-[Bb]uild/
-[Oo]bj/
+# Compiled Object files
+*.slo
+*.lo
 *.o
-[Dd]ebug*/
-[Rr]elease*/
-*.mode*
-*.app/
-*.pyc
-.svn/
-*.log
+*.obj
 
-########################
-# IDE files which should
-# be ignored
-########################
+# Precompiled Headers
+*.gch
+*.pch
 
-# XCode
-*.pbxuser
-*.perspective
-*.perspectivev3
-*.mode1v3
-*.mode2v3
-# XCode 4
-xcuserdata
-*.xcworkspace
-*.xcuserstate
+# Compiled Dynamic libraries
+*.so
+*.dylib
+*.dll
 
-# Code::Blocks
-*.depend
-*.layout
+# Fortran module files
+*.mod
+*.smod
 
-# Visual Studio
-*.sdf
-*.opensdf
-*.suo
-*.pdb
-*.ilk
-*.aps
-ipch/
+# Compiled Static libraries
+*.lai
+*.la
+*.a
+*.lib
 
-# Eclipse
-.metadata
-local.properties
-.externalToolBuilders
+# Executables
+*.exe
+*.out
+*.app
+=======
+*.plist
+*.xcodeproj
+*.xcconfig
 
-##################
-# operating system
-##################
+Makefile
+config.make
 
-# Linux
-*~
-# KDE
-.directory
-.AppleDouble
+*.app
 
-# OSX
-.DS_Store
-*.swp
-*~.nib
-# Thumbnails
-._*
-
-# Windows
-# Image file caches
-Thumbs.db
-# Folder config file
-Desktop.ini
-
-# Android
-.csettingsest
+docs/_site
